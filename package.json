@@ -1,0 +1,36 @@
+{
+  "name": "finlaticswebdev_project3-main",
+  "version": "1.0.0",
+  "description": "Project 3",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma generate && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@prisma/client": "^5.14.0",
+    "@tailwindcss/postcss": "^4.3.2",
+    "autoprefixer": "^10.5.2",
+    "bcryptjs": "^3.0.3",
+    "formidable": "^3.5.4",
+    "framer-motion": "^12.42.2",
+    "next": "^16.2.10",
+    "next-auth": "^4.24.14",
+    "nodemailer": "^7.0.13",
+    "pdf-parse": "^1.1.1",
+    "postcss": "^8.5.16",
+    "prisma": "^5.14.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tailwindcss": "^4.3.2"
+  }
+}
