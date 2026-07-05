@@ -1,10 +1,12 @@
-import React from "react";
+export default function HomePage() {
+  return null;
+}
 
-const HomePage = () => (
-  <div>
-    <h1>Welcome to the Demo Home Page</h1>
-    <p>This is a demo Next.js home page.</p>
-  </div>
-);
-
-export default HomePage;
+export async function getServerSideProps() {
+  return {
+    redirect: {
+      destination: '/chat',
+      permanent: false,
+    },
+  };
+}
