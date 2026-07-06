@@ -315,6 +315,23 @@ export default function Chat() {
                   <div className="text-sm text-gray-400 text-center p-4">No recent chats</div>
                 )}
               </div>
+              
+              <div className="p-4 border-t border-gray-200/50 mt-auto">
+                <a
+                  href="https://my-portfolio-eta-three-95.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex items-center justify-center gap-2 p-3 rounded-xl hover:bg-white/60 transition-all duration-300 relative overflow-hidden shadow-sm hover:shadow-md border border-transparent hover:border-indigo-100"
+                >
+                  <div className="absolute inset-0 bg-gradient-to-r from-indigo-50 to-purple-50 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out"></div>
+                  <span className="text-xs font-medium text-gray-500 group-hover:text-gray-700 relative z-10 transition-colors">
+                    Developed by
+                  </span>
+                  <span className="text-sm font-black tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 relative z-10 group-hover:scale-110 transition-transform duration-300 origin-left">
+                    PRANAV
+                  </span>
+                </a>
+              </div>
             </motion.aside>
           )}
         </AnimatePresence>
